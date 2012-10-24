@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>Pure CSS Parallax</title>
+	<style>
+	body {
+	padding: 0px;
+	margin: 0px;
+	background: #eef;
+	}
+	
+	/*Main container*/
+	#parallax {
+		width: 1000px;
+		height: 400px;
+		margin: 0px auto;
+		background: #0091BE;
+		position: relative;
+		font-size: 0px;
+		overflow: hidden;
+	}
+	
+	/*Control areas - used to handle different animations*/
+	#parallax .control {
+		z-index: 100;
+		display: inline-block;
+		width: 10%; /*Count Your elements!*/
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		position: absolute;
+	}
+	#parallax .control:hover{
+		background: rgba(50, 50, 200, 0.3)
+	}
+	/*Controls*/
+	#parallax .c1 {left:0%;}
+	#parallax .c2 {left:10%;}
+	#parallax .c3 {left:20%;}
+	#parallax .c4 {left:30%;}
+	#parallax .c5 {left:40%;}
+	#parallax .c6 {left:50%;}
+	#parallax .c7 {left:60%;}
+	#parallax .c8 {left:70%;}
+	#parallax .c9 {left:80%;}
+	#parallax .c10 {left:90%;}
+	/*Layers - general customisation*/
+	#parallax .layer {
+		z-index: 1;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		margin: 0px;
+		padding: 0px;
+		font-size: 12px;
+		transition-property: left;
+		transition-duration: 2s; /*Speed of animations*/
+	}
+	
+	/* Animations by Control1, etc. for Layer1, etc. | + > | < - */
+	#parallax .c1:hover ~ .l1 {left: -100px;}
+	#parallax .c1:hover ~ .l2 {left: -500px;}
+	#parallax .c1:hover ~ .l3 {left: -300px;}
+	#parallax .c1:hover ~ .l4 {left: 30px;}
+	
+	#parallax .c2:hover ~ .l1 {left: -70px;}
+	#parallax .c2:hover ~ .l2 {left: -400px;}
+	#parallax .c2:hover ~ .l3 {left: -100px;}
+	#parallax .c2:hover ~ .l4 {left: 30px;}
+	
+	#parallax .c3:hover ~ .l1 {left: -50px;}
+	#parallax .c3:hover ~ .l2 {left: -350px;}
+	#parallax .c3:hover ~ .l3 {left: -50px;}
+	#parallax .c3:hover ~ .l4 {left: 30px;}
+	
+	#parallax .c4:hover ~ .l1 {left: -20px;}
+	#parallax .c4:hover ~ .l2 {left: -300px;}
+	#parallax .c4:hover ~ .l3 {left: -20px;}
+	#parallax .c4:hover ~ .l4 {left: 30px;}
+	
+	#parallax .c5:hover ~ .l1 {left: -5px;}
+	#parallax .c5:hover ~ .l2 {left: -250px;}
+	#parallax .c5:hover ~ .l3 {left: 0px;}
+	#parallax .c5:hover ~ .l4 {left: 0px;}
+	
+	#parallax .c6:hover ~ .l1 {left: 35px;}
+	#parallax .c6:hover ~ .l2 {left: -120px;}
+	#parallax .c6:hover ~ .l3 {left: 0px;}
+	#parallax .c6:hover ~ .l4 {left: 100px;}
+	
+	#parallax .c7:hover ~ .l1 {left: 50px;}
+	#parallax .c7:hover ~ .l2 {left: -90px;}
+	#parallax .c7:hover ~ .l3 {left: -10px;}
+	#parallax .c7:hover ~ .l4 {left: 50px;}
+	
+	#parallax .c8:hover ~ .l1 {left: 90px;}
+	#parallax .c8:hover ~ .l2 {left: -60px;}
+	#parallax .c8:hover ~ .l3 {left: -30px;}
+	#parallax .c8:hover ~ .l4 {left: 30px;}
+	
+	#parallax .c9:hover ~ .l1 {left: 120px;}
+	#parallax .c9:hover ~ .l2 {left: -50px;}
+	#parallax .c9:hover ~ .l3 {left: -290px;}
+	#parallax .c9:hover ~ .l4 {left: 10px;}
+	
+	#parallax .c10:hover ~ .l1 {left: 100px;}
+	#parallax .c10:hover ~ .l2 {left: -0px;}
+	#parallax .c10:hover ~ .l3 {left: -300px;}
+	#parallax .c10:hover ~ .l4 {left: 0px;}
+	
+	
+	</style>
+</head>
+<body>
+	<div id="parallax">
+		<!--Controls-->
+		<div class="control c1"></div>
+		<div class="control c2"></div>
+		<div class="control c3"></div>
+		<div class="control c4"></div>
+		<div class="control c5"></div>
+		<div class="control c6"></div>
+		<div class="control c7"></div>
+		<div class="control c8"></div>
+		<div class="control c9"></div>
+		<div class="control c10"></div>
+		<!--Layers-->
+		<div class="layer l1" style="width: 1000px; height: 400px; background: url('parallax1.png') center no-repeat;"></div>
+		<div class="layer l2" style="width: 1500px; height: 400px; background: url('parallax2.png') center no-repeat;"></div>
+		<div class="layer l3" style="width: 1300px; height: 400px; background: url('parallax3.png') no-repeat; background-position: 1000px 20px;"></div>
+		<div class="layer l4" style="width: 1000px; height: 400px;"><div style="font-family: Georgia; font-style: italic; font-size: 20px; position: absolute; bottom: 20px; left: 30px;">CSS Parallax by Tanner &bull; Find it on GitHub</div></div>
+	</div>
+	<div style="text-align: center;">Powered by <a href="http://tanner.gamedev.pl/" title="Tanner" target="_blank">Tanner</a></div>
+</body>
+</html>
