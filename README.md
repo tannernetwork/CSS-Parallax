@@ -3,4 +3,8 @@ CSS-Parallax
 
 Parallax effect with pure CSS
 
-<strong>Home & Demo</strong>: http://tanner.gamedev.pl/projects/css-parallax/
+http://tanner.warsztat.io/
+http://fb.me/tannernetwork
+http://twitter.com/tannernetwork
+
+in 2013

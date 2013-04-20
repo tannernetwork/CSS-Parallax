@@ -1,16 +1,23 @@
+<!--
+	Author: Tanner
+	https://github.com/Tanner963/CSS-Parallax
+	http://tanner.warsztat.io/
+	http://fb.me/tannernetwork
+	http://twitter.com/tannernetwork
+	2013
+-->
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf8">
+	<meta charset="utf-8">
 	<title>Pure CSS Parallax</title>
 	<style>
 	body {
-	padding: 0px;
-	margin: 0px;
-	background: #eef;
+		padding: 0px;
+		margin: 0px;
+		background: #eef;
 	}
 	
-	/*Main container*/
 	#parallax {
 		width: 1000px;
 		height: 400px;
@@ -21,31 +28,217 @@
 		overflow: hidden;
 	}
 	
-	/*Control areas - used to handle different animations*/
 	#parallax .control {
-		z-index: 100;
+		z-index: 1000;
 		display: inline-block;
-		width: 10%; /*Count Your elements!*/
+		width: 5px;
 		height: 100%;
 		margin: 0px;
 		padding: 0px;
 		position: absolute;
 	}
-	#parallax .control:hover{
-		background: rgba(50, 50, 200, 0.3)
-	}
-	/*Controls*/
-	#parallax .c1 {left:0%;}
-	#parallax .c2 {left:10%;}
-	#parallax .c3 {left:20%;}
-	#parallax .c4 {left:30%;}
-	#parallax .c5 {left:40%;}
-	#parallax .c6 {left:50%;}
-	#parallax .c7 {left:60%;}
-	#parallax .c8 {left:70%;}
-	#parallax .c9 {left:80%;}
-	#parallax .c10 {left:90%;}
-	/*Layers - general customisation*/
+	
+	#parallax .c200 {left:995px;}
+	#parallax .c199 {left:990px;}
+	#parallax .c198 {left:985px;}
+	#parallax .c197 {left:980px;}
+	#parallax .c196 {left:975px;}
+	#parallax .c195 {left:970px;}
+	#parallax .c194 {left:965px;}
+	#parallax .c193 {left:960px;}
+	#parallax .c192 {left:955px;}
+	#parallax .c191 {left:950px;}
+	#parallax .c190 {left:945px;}
+	#parallax .c189 {left:940px;}
+	#parallax .c188 {left:935px;}
+	#parallax .c187 {left:930px;}
+	#parallax .c186 {left:925px;}
+	#parallax .c185 {left:920px;}
+	#parallax .c184 {left:915px;}
+	#parallax .c183 {left:910px;}
+	#parallax .c182 {left:905px;}
+	#parallax .c181 {left:900px;}
+	#parallax .c180 {left:895px;}
+	#parallax .c179 {left:890px;}
+	#parallax .c178 {left:885px;}
+	#parallax .c177 {left:880px;}
+	#parallax .c176 {left:875px;}
+	#parallax .c175 {left:870px;}
+	#parallax .c174 {left:865px;}
+	#parallax .c173 {left:860px;}
+	#parallax .c172 {left:855px;}
+	#parallax .c171 {left:850px;}
+	#parallax .c170 {left:845px;}
+	#parallax .c169 {left:840px;}
+	#parallax .c168 {left:835px;}
+	#parallax .c167 {left:830px;}
+	#parallax .c166 {left:825px;}
+	#parallax .c165 {left:820px;}
+	#parallax .c164 {left:815px;}
+	#parallax .c163 {left:810px;}
+	#parallax .c162 {left:805px;}
+	#parallax .c161 {left:800px;}
+	#parallax .c160 {left:795px;}
+	#parallax .c159 {left:790px;}
+	#parallax .c158 {left:785px;}
+	#parallax .c157 {left:780px;}
+	#parallax .c156 {left:775px;}
+	#parallax .c155 {left:770px;}
+	#parallax .c154 {left:765px;}
+	#parallax .c153 {left:760px;}
+	#parallax .c152 {left:755px;}
+	#parallax .c151 {left:750px;}
+	#parallax .c150 {left:745px;}
+	#parallax .c149 {left:740px;}
+	#parallax .c148 {left:735px;}
+	#parallax .c147 {left:730px;}
+	#parallax .c146 {left:725px;}
+	#parallax .c145 {left:720px;}
+	#parallax .c144 {left:715px;}
+	#parallax .c143 {left:710px;}
+	#parallax .c142 {left:705px;}
+	#parallax .c141 {left:700px;}
+	#parallax .c140 {left:695px;}
+	#parallax .c139 {left:690px;}
+	#parallax .c138 {left:685px;}
+	#parallax .c137 {left:680px;}
+	#parallax .c136 {left:675px;}
+	#parallax .c135 {left:670px;}
+	#parallax .c134 {left:665px;}
+	#parallax .c133 {left:660px;}
+	#parallax .c132 {left:655px;}
+	#parallax .c131 {left:650px;}
+	#parallax .c130 {left:645px;}
+	#parallax .c129 {left:640px;}
+	#parallax .c128 {left:635px;}
+	#parallax .c127 {left:630px;}
+	#parallax .c126 {left:625px;}
+	#parallax .c125 {left:620px;}
+	#parallax .c124 {left:615px;}
+	#parallax .c123 {left:610px;}
+	#parallax .c122 {left:605px;}
+	#parallax .c121 {left:600px;}
+	#parallax .c120 {left:595px;}
+	#parallax .c119 {left:590px;}
+	#parallax .c118 {left:585px;}
+	#parallax .c117 {left:580px;}
+	#parallax .c116 {left:575px;}
+	#parallax .c115 {left:570px;}
+	#parallax .c114 {left:565px;}
+	#parallax .c113 {left:560px;}
+	#parallax .c112 {left:555px;}
+	#parallax .c111 {left:550px;}
+	#parallax .c110 {left:545px;}
+	#parallax .c109 {left:540px;}
+	#parallax .c108 {left:535px;}
+	#parallax .c107 {left:530px;}
+	#parallax .c106 {left:525px;}
+	#parallax .c105 {left:520px;}
+	#parallax .c104 {left:515px;}
+	#parallax .c103 {left:510px;}
+	#parallax .c102 {left:505px;}
+	#parallax .c101 {left:500px;}
+	#parallax .c100 {left:495px;}
+	#parallax .c99 {left:490px;}
+	#parallax .c98 {left:485px;}
+	#parallax .c97 {left:480px;}
+	#parallax .c96 {left:475px;}
+	#parallax .c95 {left:470px;}
+	#parallax .c94 {left:465px;}
+	#parallax .c93 {left:460px;}
+	#parallax .c92 {left:455px;}
+	#parallax .c91 {left:450px;}
+	#parallax .c90 {left:445px;}
+	#parallax .c89 {left:440px;}
+	#parallax .c88 {left:435px;}
+	#parallax .c87 {left:430px;}
+	#parallax .c86 {left:425px;}
+	#parallax .c85 {left:420px;}
+	#parallax .c84 {left:415px;}
+	#parallax .c83 {left:410px;}
+	#parallax .c82 {left:405px;}
+	#parallax .c81 {left:400px;}
+	#parallax .c80 {left:395px;}
+	#parallax .c79 {left:390px;}
+	#parallax .c78 {left:385px;}
+	#parallax .c77 {left:380px;}
+	#parallax .c76 {left:375px;}
+	#parallax .c75 {left:370px;}
+	#parallax .c74 {left:365px;}
+	#parallax .c73 {left:360px;}
+	#parallax .c72 {left:355px;}
+	#parallax .c71 {left:350px;}
+	#parallax .c70 {left:345px;}
+	#parallax .c69 {left:340px;}
+	#parallax .c68 {left:335px;}
+	#parallax .c67 {left:330px;}
+	#parallax .c66 {left:325px;}
+	#parallax .c65 {left:320px;}
+	#parallax .c64 {left:315px;}
+	#parallax .c63 {left:310px;}
+	#parallax .c62 {left:305px;}
+	#parallax .c61 {left:300px;}
+	#parallax .c60 {left:295px;}
+	#parallax .c59 {left:290px;}
+	#parallax .c58 {left:285px;}
+	#parallax .c57 {left:280px;}
+	#parallax .c56 {left:275px;}
+	#parallax .c55 {left:270px;}
+	#parallax .c54 {left:265px;}
+	#parallax .c53 {left:260px;}
+	#parallax .c52 {left:255px;}
+	#parallax .c51 {left:250px;}
+	#parallax .c50 {left:245px;}
+	#parallax .c49 {left:240px;}
+	#parallax .c48 {left:235px;}
+	#parallax .c47 {left:230px;}
+	#parallax .c46 {left:225px;}
+	#parallax .c45 {left:220px;}
+	#parallax .c44 {left:215px;}
+	#parallax .c43 {left:210px;}
+	#parallax .c42 {left:205px;}
+	#parallax .c41 {left:200px;}
+	#parallax .c40 {left:195px;}
+	#parallax .c39 {left:190px;}
+	#parallax .c38 {left:185px;}
+	#parallax .c37 {left:180px;}
+	#parallax .c36 {left:175px;}
+	#parallax .c35 {left:170px;}
+	#parallax .c34 {left:165px;}
+	#parallax .c33 {left:160px;}
+	#parallax .c32 {left:155px;}
+	#parallax .c31 {left:150px;}
+	#parallax .c30 {left:145px;}
+	#parallax .c29 {left:140px;}
+	#parallax .c28 {left:135px;}
+	#parallax .c27 {left:130px;}
+	#parallax .c26 {left:125px;}
+	#parallax .c25 {left:120px;}
+	#parallax .c24 {left:115px;}
+	#parallax .c23 {left:110px;}
+	#parallax .c22 {left:105px;}
+	#parallax .c21 {left:100px;}
+	#parallax .c20 {left:95px;}
+	#parallax .c19 {left:90px;}
+	#parallax .c18 {left:85px;}
+	#parallax .c17 {left:80px;}
+	#parallax .c16 {left:75px;}
+	#parallax .c15 {left:70px;}
+	#parallax .c14 {left:65px;}
+	#parallax .c13 {left:60px;}
+	#parallax .c12 {left:55px;}
+	#parallax .c11 {left:50px;}
+	#parallax .c10 {left:45px;}
+	#parallax .c9 {left:40px;}
+	#parallax .c8 {left:35px;}
+	#parallax .c7 {left:30px;}
+	#parallax .c6 {left:25px;}
+	#parallax .c5 {left:20px;}
+	#parallax .c4 {left:15px;}
+	#parallax .c3 {left:10px;}
+	#parallax .c2 {left:5px;}
+	#parallax .c1 {left:0px;}
+		
 	#parallax .layer {
 		z-index: 1;
 		position: absolute;
@@ -55,84 +248,849 @@
 		padding: 0px;
 		font-size: 12px;
 		transition-property: left;
-		transition-duration: 2s; /*Speed of animations*/
+		transition-duration: 1s;
 		-webkit-transition-property: left;
-		-webkit-transition-duration: 2s; /*Speed of animations*/
+		-webkit-transition-duration: 1s;
 	}
 	
-	/* Animations by Control1, etc. for Layer1, etc. | + > | < - */
-	#parallax .c1:hover ~ .l1 {left: -100px;}
-	#parallax .c1:hover ~ .l2 {left: -500px;}
-	#parallax .c1:hover ~ .l3 {left: -300px;}
-	#parallax .c1:hover ~ .l4 {left: 30px;}
-	
-	#parallax .c2:hover ~ .l1 {left: -70px;}
-	#parallax .c2:hover ~ .l2 {left: -400px;}
-	#parallax .c2:hover ~ .l3 {left: -100px;}
-	#parallax .c2:hover ~ .l4 {left: 30px;}
-	
-	#parallax .c3:hover ~ .l1 {left: -50px;}
-	#parallax .c3:hover ~ .l2 {left: -350px;}
-	#parallax .c3:hover ~ .l3 {left: -50px;}
-	#parallax .c3:hover ~ .l4 {left: 30px;}
-	
-	#parallax .c4:hover ~ .l1 {left: -20px;}
-	#parallax .c4:hover ~ .l2 {left: -300px;}
-	#parallax .c4:hover ~ .l3 {left: -20px;}
-	#parallax .c4:hover ~ .l4 {left: 30px;}
-	
-	#parallax .c5:hover ~ .l1 {left: -5px;}
-	#parallax .c5:hover ~ .l2 {left: -250px;}
-	#parallax .c5:hover ~ .l3 {left: 0px;}
-	#parallax .c5:hover ~ .l4 {left: 0px;}
-	
-	#parallax .c6:hover ~ .l1 {left: 35px;}
-	#parallax .c6:hover ~ .l2 {left: -120px;}
-	#parallax .c6:hover ~ .l3 {left: 0px;}
-	#parallax .c6:hover ~ .l4 {left: 100px;}
-	
-	#parallax .c7:hover ~ .l1 {left: 50px;}
-	#parallax .c7:hover ~ .l2 {left: -90px;}
-	#parallax .c7:hover ~ .l3 {left: -10px;}
-	#parallax .c7:hover ~ .l4 {left: 50px;}
-	
-	#parallax .c8:hover ~ .l1 {left: 90px;}
-	#parallax .c8:hover ~ .l2 {left: -60px;}
-	#parallax .c8:hover ~ .l3 {left: -30px;}
-	#parallax .c8:hover ~ .l4 {left: 30px;}
-	
-	#parallax .c9:hover ~ .l1 {left: 120px;}
-	#parallax .c9:hover ~ .l2 {left: -50px;}
-	#parallax .c9:hover ~ .l3 {left: -290px;}
-	#parallax .c9:hover ~ .l4 {left: 10px;}
-	
-	#parallax .c10:hover ~ .l1 {left: 100px;}
-	#parallax .c10:hover ~ .l2 {left: -0px;}
-	#parallax .c10:hover ~ .l3 {left: -300px;}
-	#parallax .c10:hover ~ .l4 {left: 0px;}
-	
-	
+	#parallax .l1 {
+	width:800px;
+	height:400px;
+	background:url(layer1.png);
+	background-size: contain;
+	left:0px;
+}
+	#parallax .l2 {
+	width:1500px;
+	height:400px;
+	background:url(layer2.png);
+	background-size: contain;
+	left:-500px;
+}
+	#parallax .l3 {
+	width:500px;
+	height:400px;
+	background:url(layer3.png) no-repeat center;
+	background-size: contain;
+	left:-3500px;
+}
+		
+	#parallax .c200:hover ~ .l1 {left: -796px; !important}
+	#parallax .c200:hover ~ .l2 {left: -2.5px; !important}
+	#parallax .c200:hover ~ .l3 {left: 231.25px; !important}
+	#parallax .c199:hover ~ .l1 {left: -792px; !important}
+	#parallax .c199:hover ~ .l2 {left: -5px; !important}
+	#parallax .c199:hover ~ .l3 {left: 212.5px; !important}
+	#parallax .c198:hover ~ .l1 {left: -788px; !important}
+	#parallax .c198:hover ~ .l2 {left: -7.5px; !important}
+	#parallax .c198:hover ~ .l3 {left: 193.75px; !important}
+	#parallax .c197:hover ~ .l1 {left: -784px; !important}
+	#parallax .c197:hover ~ .l2 {left: -10px; !important}
+	#parallax .c197:hover ~ .l3 {left: 175px; !important}
+	#parallax .c196:hover ~ .l1 {left: -780px; !important}
+	#parallax .c196:hover ~ .l2 {left: -12.5px; !important}
+	#parallax .c196:hover ~ .l3 {left: 156.25px; !important}
+	#parallax .c195:hover ~ .l1 {left: -776px; !important}
+	#parallax .c195:hover ~ .l2 {left: -15px; !important}
+	#parallax .c195:hover ~ .l3 {left: 137.5px; !important}
+	#parallax .c194:hover ~ .l1 {left: -772px; !important}
+	#parallax .c194:hover ~ .l2 {left: -17.5px; !important}
+	#parallax .c194:hover ~ .l3 {left: 118.75px; !important}
+	#parallax .c193:hover ~ .l1 {left: -768px; !important}
+	#parallax .c193:hover ~ .l2 {left: -20px; !important}
+	#parallax .c193:hover ~ .l3 {left: 100px; !important}
+	#parallax .c192:hover ~ .l1 {left: -764px; !important}
+	#parallax .c192:hover ~ .l2 {left: -22.5px; !important}
+	#parallax .c192:hover ~ .l3 {left: 81.25px; !important}
+	#parallax .c191:hover ~ .l1 {left: -760px; !important}
+	#parallax .c191:hover ~ .l2 {left: -25px; !important}
+	#parallax .c191:hover ~ .l3 {left: 62.5px; !important}
+	#parallax .c190:hover ~ .l1 {left: -756px; !important}
+	#parallax .c190:hover ~ .l2 {left: -27.5px; !important}
+	#parallax .c190:hover ~ .l3 {left: 43.75px; !important}
+	#parallax .c189:hover ~ .l1 {left: -752px; !important}
+	#parallax .c189:hover ~ .l2 {left: -30px; !important}
+	#parallax .c189:hover ~ .l3 {left: 25px; !important}
+	#parallax .c188:hover ~ .l1 {left: -748px; !important}
+	#parallax .c188:hover ~ .l2 {left: -32.5px; !important}
+	#parallax .c188:hover ~ .l3 {left: 6.25px; !important}
+	#parallax .c187:hover ~ .l1 {left: -744px; !important}
+	#parallax .c187:hover ~ .l2 {left: -35px; !important}
+	#parallax .c187:hover ~ .l3 {left: -12.5px; !important}
+	#parallax .c186:hover ~ .l1 {left: -740px; !important}
+	#parallax .c186:hover ~ .l2 {left: -37.5px; !important}
+	#parallax .c186:hover ~ .l3 {left: -31.25px; !important}
+	#parallax .c185:hover ~ .l1 {left: -736px; !important}
+	#parallax .c185:hover ~ .l2 {left: -40px; !important}
+	#parallax .c185:hover ~ .l3 {left: -50px; !important}
+	#parallax .c184:hover ~ .l1 {left: -732px; !important}
+	#parallax .c184:hover ~ .l2 {left: -42.5px; !important}
+	#parallax .c184:hover ~ .l3 {left: -68.75px; !important}
+	#parallax .c183:hover ~ .l1 {left: -728px; !important}
+	#parallax .c183:hover ~ .l2 {left: -45px; !important}
+	#parallax .c183:hover ~ .l3 {left: -87.5px; !important}
+	#parallax .c182:hover ~ .l1 {left: -724px; !important}
+	#parallax .c182:hover ~ .l2 {left: -47.5px; !important}
+	#parallax .c182:hover ~ .l3 {left: -106.25px; !important}
+	#parallax .c181:hover ~ .l1 {left: -720px; !important}
+	#parallax .c181:hover ~ .l2 {left: -50px; !important}
+	#parallax .c181:hover ~ .l3 {left: -125px; !important}
+	#parallax .c180:hover ~ .l1 {left: -716px; !important}
+	#parallax .c180:hover ~ .l2 {left: -52.5px; !important}
+	#parallax .c180:hover ~ .l3 {left: -143.75px; !important}
+	#parallax .c179:hover ~ .l1 {left: -712px; !important}
+	#parallax .c179:hover ~ .l2 {left: -55px; !important}
+	#parallax .c179:hover ~ .l3 {left: -162.5px; !important}
+	#parallax .c178:hover ~ .l1 {left: -708px; !important}
+	#parallax .c178:hover ~ .l2 {left: -57.5px; !important}
+	#parallax .c178:hover ~ .l3 {left: -181.25px; !important}
+	#parallax .c177:hover ~ .l1 {left: -704px; !important}
+	#parallax .c177:hover ~ .l2 {left: -60px; !important}
+	#parallax .c177:hover ~ .l3 {left: -200px; !important}
+	#parallax .c176:hover ~ .l1 {left: -700px; !important}
+	#parallax .c176:hover ~ .l2 {left: -62.5px; !important}
+	#parallax .c176:hover ~ .l3 {left: -218.75px; !important}
+	#parallax .c175:hover ~ .l1 {left: -696px; !important}
+	#parallax .c175:hover ~ .l2 {left: -65px; !important}
+	#parallax .c175:hover ~ .l3 {left: -237.5px; !important}
+	#parallax .c174:hover ~ .l1 {left: -692px; !important}
+	#parallax .c174:hover ~ .l2 {left: -67.5px; !important}
+	#parallax .c174:hover ~ .l3 {left: -256.25px; !important}
+	#parallax .c173:hover ~ .l1 {left: -688px; !important}
+	#parallax .c173:hover ~ .l2 {left: -70px; !important}
+	#parallax .c173:hover ~ .l3 {left: -275px; !important}
+	#parallax .c172:hover ~ .l1 {left: -684px; !important}
+	#parallax .c172:hover ~ .l2 {left: -72.5px; !important}
+	#parallax .c172:hover ~ .l3 {left: -293.75px; !important}
+	#parallax .c171:hover ~ .l1 {left: -680px; !important}
+	#parallax .c171:hover ~ .l2 {left: -75px; !important}
+	#parallax .c171:hover ~ .l3 {left: -312.5px; !important}
+	#parallax .c170:hover ~ .l1 {left: -676px; !important}
+	#parallax .c170:hover ~ .l2 {left: -77.5px; !important}
+	#parallax .c170:hover ~ .l3 {left: -331.25px; !important}
+	#parallax .c169:hover ~ .l1 {left: -672px; !important}
+	#parallax .c169:hover ~ .l2 {left: -80px; !important}
+	#parallax .c169:hover ~ .l3 {left: -350px; !important}
+	#parallax .c168:hover ~ .l1 {left: -668px; !important}
+	#parallax .c168:hover ~ .l2 {left: -82.5px; !important}
+	#parallax .c168:hover ~ .l3 {left: -368.75px; !important}
+	#parallax .c167:hover ~ .l1 {left: -664px; !important}
+	#parallax .c167:hover ~ .l2 {left: -85px; !important}
+	#parallax .c167:hover ~ .l3 {left: -387.5px; !important}
+	#parallax .c166:hover ~ .l1 {left: -660px; !important}
+	#parallax .c166:hover ~ .l2 {left: -87.5px; !important}
+	#parallax .c166:hover ~ .l3 {left: -406.25px; !important}
+	#parallax .c165:hover ~ .l1 {left: -656px; !important}
+	#parallax .c165:hover ~ .l2 {left: -90px; !important}
+	#parallax .c165:hover ~ .l3 {left: -425px; !important}
+	#parallax .c164:hover ~ .l1 {left: -652px; !important}
+	#parallax .c164:hover ~ .l2 {left: -92.5px; !important}
+	#parallax .c164:hover ~ .l3 {left: -443.75px; !important}
+	#parallax .c163:hover ~ .l1 {left: -648px; !important}
+	#parallax .c163:hover ~ .l2 {left: -95px; !important}
+	#parallax .c163:hover ~ .l3 {left: -462.5px; !important}
+	#parallax .c162:hover ~ .l1 {left: -644px; !important}
+	#parallax .c162:hover ~ .l2 {left: -97.5px; !important}
+	#parallax .c162:hover ~ .l3 {left: -481.25px; !important}
+	#parallax .c161:hover ~ .l1 {left: -640px; !important}
+	#parallax .c161:hover ~ .l2 {left: -100px; !important}
+	#parallax .c161:hover ~ .l3 {left: -500px; !important}
+	#parallax .c160:hover ~ .l1 {left: -636px; !important}
+	#parallax .c160:hover ~ .l2 {left: -102.5px; !important}
+	#parallax .c160:hover ~ .l3 {left: -518.75px; !important}
+	#parallax .c159:hover ~ .l1 {left: -632px; !important}
+	#parallax .c159:hover ~ .l2 {left: -105px; !important}
+	#parallax .c159:hover ~ .l3 {left: -537.5px; !important}
+	#parallax .c158:hover ~ .l1 {left: -628px; !important}
+	#parallax .c158:hover ~ .l2 {left: -107.5px; !important}
+	#parallax .c158:hover ~ .l3 {left: -556.25px; !important}
+	#parallax .c157:hover ~ .l1 {left: -624px; !important}
+	#parallax .c157:hover ~ .l2 {left: -110px; !important}
+	#parallax .c157:hover ~ .l3 {left: -575px; !important}
+	#parallax .c156:hover ~ .l1 {left: -620px; !important}
+	#parallax .c156:hover ~ .l2 {left: -112.5px; !important}
+	#parallax .c156:hover ~ .l3 {left: -593.75px; !important}
+	#parallax .c155:hover ~ .l1 {left: -616px; !important}
+	#parallax .c155:hover ~ .l2 {left: -115px; !important}
+	#parallax .c155:hover ~ .l3 {left: -612.5px; !important}
+	#parallax .c154:hover ~ .l1 {left: -612px; !important}
+	#parallax .c154:hover ~ .l2 {left: -117.5px; !important}
+	#parallax .c154:hover ~ .l3 {left: -631.25px; !important}
+	#parallax .c153:hover ~ .l1 {left: -608px; !important}
+	#parallax .c153:hover ~ .l2 {left: -120px; !important}
+	#parallax .c153:hover ~ .l3 {left: -650px; !important}
+	#parallax .c152:hover ~ .l1 {left: -604px; !important}
+	#parallax .c152:hover ~ .l2 {left: -122.5px; !important}
+	#parallax .c152:hover ~ .l3 {left: -668.75px; !important}
+	#parallax .c151:hover ~ .l1 {left: -600px; !important}
+	#parallax .c151:hover ~ .l2 {left: -125px; !important}
+	#parallax .c151:hover ~ .l3 {left: -687.5px; !important}
+	#parallax .c150:hover ~ .l1 {left: -596px; !important}
+	#parallax .c150:hover ~ .l2 {left: -127.5px; !important}
+	#parallax .c150:hover ~ .l3 {left: -706.25px; !important}
+	#parallax .c149:hover ~ .l1 {left: -592px; !important}
+	#parallax .c149:hover ~ .l2 {left: -130px; !important}
+	#parallax .c149:hover ~ .l3 {left: -725px; !important}
+	#parallax .c148:hover ~ .l1 {left: -588px; !important}
+	#parallax .c148:hover ~ .l2 {left: -132.5px; !important}
+	#parallax .c148:hover ~ .l3 {left: -743.75px; !important}
+	#parallax .c147:hover ~ .l1 {left: -584px; !important}
+	#parallax .c147:hover ~ .l2 {left: -135px; !important}
+	#parallax .c147:hover ~ .l3 {left: -762.5px; !important}
+	#parallax .c146:hover ~ .l1 {left: -580px; !important}
+	#parallax .c146:hover ~ .l2 {left: -137.5px; !important}
+	#parallax .c146:hover ~ .l3 {left: -781.25px; !important}
+	#parallax .c145:hover ~ .l1 {left: -576px; !important}
+	#parallax .c145:hover ~ .l2 {left: -140px; !important}
+	#parallax .c145:hover ~ .l3 {left: -800px; !important}
+	#parallax .c144:hover ~ .l1 {left: -572px; !important}
+	#parallax .c144:hover ~ .l2 {left: -142.5px; !important}
+	#parallax .c144:hover ~ .l3 {left: -818.75px; !important}
+	#parallax .c143:hover ~ .l1 {left: -568px; !important}
+	#parallax .c143:hover ~ .l2 {left: -145px; !important}
+	#parallax .c143:hover ~ .l3 {left: -837.5px; !important}
+	#parallax .c142:hover ~ .l1 {left: -564px; !important}
+	#parallax .c142:hover ~ .l2 {left: -147.5px; !important}
+	#parallax .c142:hover ~ .l3 {left: -856.25px; !important}
+	#parallax .c141:hover ~ .l1 {left: -560px; !important}
+	#parallax .c141:hover ~ .l2 {left: -150px; !important}
+	#parallax .c141:hover ~ .l3 {left: -875px; !important}
+	#parallax .c140:hover ~ .l1 {left: -556px; !important}
+	#parallax .c140:hover ~ .l2 {left: -152.5px; !important}
+	#parallax .c140:hover ~ .l3 {left: -893.75px; !important}
+	#parallax .c139:hover ~ .l1 {left: -552px; !important}
+	#parallax .c139:hover ~ .l2 {left: -155px; !important}
+	#parallax .c139:hover ~ .l3 {left: -912.5px; !important}
+	#parallax .c138:hover ~ .l1 {left: -548px; !important}
+	#parallax .c138:hover ~ .l2 {left: -157.5px; !important}
+	#parallax .c138:hover ~ .l3 {left: -931.25px; !important}
+	#parallax .c137:hover ~ .l1 {left: -544px; !important}
+	#parallax .c137:hover ~ .l2 {left: -160px; !important}
+	#parallax .c137:hover ~ .l3 {left: -950px; !important}
+	#parallax .c136:hover ~ .l1 {left: -540px; !important}
+	#parallax .c136:hover ~ .l2 {left: -162.5px; !important}
+	#parallax .c136:hover ~ .l3 {left: -968.75px; !important}
+	#parallax .c135:hover ~ .l1 {left: -536px; !important}
+	#parallax .c135:hover ~ .l2 {left: -165px; !important}
+	#parallax .c135:hover ~ .l3 {left: -987.5px; !important}
+	#parallax .c134:hover ~ .l1 {left: -532px; !important}
+	#parallax .c134:hover ~ .l2 {left: -167.5px; !important}
+	#parallax .c134:hover ~ .l3 {left: -1006.25px; !important}
+	#parallax .c133:hover ~ .l1 {left: -528px; !important}
+	#parallax .c133:hover ~ .l2 {left: -170px; !important}
+	#parallax .c133:hover ~ .l3 {left: -1025px; !important}
+	#parallax .c132:hover ~ .l1 {left: -524px; !important}
+	#parallax .c132:hover ~ .l2 {left: -172.5px; !important}
+	#parallax .c132:hover ~ .l3 {left: -1043.75px; !important}
+	#parallax .c131:hover ~ .l1 {left: -520px; !important}
+	#parallax .c131:hover ~ .l2 {left: -175px; !important}
+	#parallax .c131:hover ~ .l3 {left: -1062.5px; !important}
+	#parallax .c130:hover ~ .l1 {left: -516px; !important}
+	#parallax .c130:hover ~ .l2 {left: -177.5px; !important}
+	#parallax .c130:hover ~ .l3 {left: -1081.25px; !important}
+	#parallax .c129:hover ~ .l1 {left: -512px; !important}
+	#parallax .c129:hover ~ .l2 {left: -180px; !important}
+	#parallax .c129:hover ~ .l3 {left: -1100px; !important}
+	#parallax .c128:hover ~ .l1 {left: -508px; !important}
+	#parallax .c128:hover ~ .l2 {left: -182.5px; !important}
+	#parallax .c128:hover ~ .l3 {left: -1118.75px; !important}
+	#parallax .c127:hover ~ .l1 {left: -504px; !important}
+	#parallax .c127:hover ~ .l2 {left: -185px; !important}
+	#parallax .c127:hover ~ .l3 {left: -1137.5px; !important}
+	#parallax .c126:hover ~ .l1 {left: -500px; !important}
+	#parallax .c126:hover ~ .l2 {left: -187.5px; !important}
+	#parallax .c126:hover ~ .l3 {left: -1156.25px; !important}
+	#parallax .c125:hover ~ .l1 {left: -496px; !important}
+	#parallax .c125:hover ~ .l2 {left: -190px; !important}
+	#parallax .c125:hover ~ .l3 {left: -1175px; !important}
+	#parallax .c124:hover ~ .l1 {left: -492px; !important}
+	#parallax .c124:hover ~ .l2 {left: -192.5px; !important}
+	#parallax .c124:hover ~ .l3 {left: -1193.75px; !important}
+	#parallax .c123:hover ~ .l1 {left: -488px; !important}
+	#parallax .c123:hover ~ .l2 {left: -195px; !important}
+	#parallax .c123:hover ~ .l3 {left: -1212.5px; !important}
+	#parallax .c122:hover ~ .l1 {left: -484px; !important}
+	#parallax .c122:hover ~ .l2 {left: -197.5px; !important}
+	#parallax .c122:hover ~ .l3 {left: -1231.25px; !important}
+	#parallax .c121:hover ~ .l1 {left: -480px; !important}
+	#parallax .c121:hover ~ .l2 {left: -200px; !important}
+	#parallax .c121:hover ~ .l3 {left: -1250px; !important}
+	#parallax .c120:hover ~ .l1 {left: -476px; !important}
+	#parallax .c120:hover ~ .l2 {left: -202.5px; !important}
+	#parallax .c120:hover ~ .l3 {left: -1268.75px; !important}
+	#parallax .c119:hover ~ .l1 {left: -472px; !important}
+	#parallax .c119:hover ~ .l2 {left: -205px; !important}
+	#parallax .c119:hover ~ .l3 {left: -1287.5px; !important}
+	#parallax .c118:hover ~ .l1 {left: -468px; !important}
+	#parallax .c118:hover ~ .l2 {left: -207.5px; !important}
+	#parallax .c118:hover ~ .l3 {left: -1306.25px; !important}
+	#parallax .c117:hover ~ .l1 {left: -464px; !important}
+	#parallax .c117:hover ~ .l2 {left: -210px; !important}
+	#parallax .c117:hover ~ .l3 {left: -1325px; !important}
+	#parallax .c116:hover ~ .l1 {left: -460px; !important}
+	#parallax .c116:hover ~ .l2 {left: -212.5px; !important}
+	#parallax .c116:hover ~ .l3 {left: -1343.75px; !important}
+	#parallax .c115:hover ~ .l1 {left: -456px; !important}
+	#parallax .c115:hover ~ .l2 {left: -215px; !important}
+	#parallax .c115:hover ~ .l3 {left: -1362.5px; !important}
+	#parallax .c114:hover ~ .l1 {left: -452px; !important}
+	#parallax .c114:hover ~ .l2 {left: -217.5px; !important}
+	#parallax .c114:hover ~ .l3 {left: -1381.25px; !important}
+	#parallax .c113:hover ~ .l1 {left: -448px; !important}
+	#parallax .c113:hover ~ .l2 {left: -220px; !important}
+	#parallax .c113:hover ~ .l3 {left: -1400px; !important}
+	#parallax .c112:hover ~ .l1 {left: -444px; !important}
+	#parallax .c112:hover ~ .l2 {left: -222.5px; !important}
+	#parallax .c112:hover ~ .l3 {left: -1418.75px; !important}
+	#parallax .c111:hover ~ .l1 {left: -440px; !important}
+	#parallax .c111:hover ~ .l2 {left: -225px; !important}
+	#parallax .c111:hover ~ .l3 {left: -1437.5px; !important}
+	#parallax .c110:hover ~ .l1 {left: -436px; !important}
+	#parallax .c110:hover ~ .l2 {left: -227.5px; !important}
+	#parallax .c110:hover ~ .l3 {left: -1456.25px; !important}
+	#parallax .c109:hover ~ .l1 {left: -432px; !important}
+	#parallax .c109:hover ~ .l2 {left: -230px; !important}
+	#parallax .c109:hover ~ .l3 {left: -1475px; !important}
+	#parallax .c108:hover ~ .l1 {left: -428px; !important}
+	#parallax .c108:hover ~ .l2 {left: -232.5px; !important}
+	#parallax .c108:hover ~ .l3 {left: -1493.75px; !important}
+	#parallax .c107:hover ~ .l1 {left: -424px; !important}
+	#parallax .c107:hover ~ .l2 {left: -235px; !important}
+	#parallax .c107:hover ~ .l3 {left: -1512.5px; !important}
+	#parallax .c106:hover ~ .l1 {left: -420px; !important}
+	#parallax .c106:hover ~ .l2 {left: -237.5px; !important}
+	#parallax .c106:hover ~ .l3 {left: -1531.25px; !important}
+	#parallax .c105:hover ~ .l1 {left: -416px; !important}
+	#parallax .c105:hover ~ .l2 {left: -240px; !important}
+	#parallax .c105:hover ~ .l3 {left: -1550px; !important}
+	#parallax .c104:hover ~ .l1 {left: -412px; !important}
+	#parallax .c104:hover ~ .l2 {left: -242.5px; !important}
+	#parallax .c104:hover ~ .l3 {left: -1568.75px; !important}
+	#parallax .c103:hover ~ .l1 {left: -408px; !important}
+	#parallax .c103:hover ~ .l2 {left: -245px; !important}
+	#parallax .c103:hover ~ .l3 {left: -1587.5px; !important}
+	#parallax .c102:hover ~ .l1 {left: -404px; !important}
+	#parallax .c102:hover ~ .l2 {left: -247.5px; !important}
+	#parallax .c102:hover ~ .l3 {left: -1606.25px; !important}
+	#parallax .c101:hover ~ .l1 {left: -400px; !important}
+	#parallax .c101:hover ~ .l2 {left: -250px; !important}
+	#parallax .c101:hover ~ .l3 {left: -1625px; !important}
+	#parallax .c100:hover ~ .l1 {left: -396px; !important}
+	#parallax .c100:hover ~ .l2 {left: -252.5px; !important}
+	#parallax .c100:hover ~ .l3 {left: -1643.75px; !important}
+	#parallax .c99:hover ~ .l1 {left: -392px; !important}
+	#parallax .c99:hover ~ .l2 {left: -255px; !important}
+	#parallax .c99:hover ~ .l3 {left: -1662.5px; !important}
+	#parallax .c98:hover ~ .l1 {left: -388px; !important}
+	#parallax .c98:hover ~ .l2 {left: -257.5px; !important}
+	#parallax .c98:hover ~ .l3 {left: -1681.25px; !important}
+	#parallax .c97:hover ~ .l1 {left: -384px; !important}
+	#parallax .c97:hover ~ .l2 {left: -260px; !important}
+	#parallax .c97:hover ~ .l3 {left: -1700px; !important}
+	#parallax .c96:hover ~ .l1 {left: -380px; !important}
+	#parallax .c96:hover ~ .l2 {left: -262.5px; !important}
+	#parallax .c96:hover ~ .l3 {left: -1718.75px; !important}
+	#parallax .c95:hover ~ .l1 {left: -376px; !important}
+	#parallax .c95:hover ~ .l2 {left: -265px; !important}
+	#parallax .c95:hover ~ .l3 {left: -1737.5px; !important}
+	#parallax .c94:hover ~ .l1 {left: -372px; !important}
+	#parallax .c94:hover ~ .l2 {left: -267.5px; !important}
+	#parallax .c94:hover ~ .l3 {left: -1756.25px; !important}
+	#parallax .c93:hover ~ .l1 {left: -368px; !important}
+	#parallax .c93:hover ~ .l2 {left: -270px; !important}
+	#parallax .c93:hover ~ .l3 {left: -1775px; !important}
+	#parallax .c92:hover ~ .l1 {left: -364px; !important}
+	#parallax .c92:hover ~ .l2 {left: -272.5px; !important}
+	#parallax .c92:hover ~ .l3 {left: -1793.75px; !important}
+	#parallax .c91:hover ~ .l1 {left: -360px; !important}
+	#parallax .c91:hover ~ .l2 {left: -275px; !important}
+	#parallax .c91:hover ~ .l3 {left: -1812.5px; !important}
+	#parallax .c90:hover ~ .l1 {left: -356px; !important}
+	#parallax .c90:hover ~ .l2 {left: -277.5px; !important}
+	#parallax .c90:hover ~ .l3 {left: -1831.25px; !important}
+	#parallax .c89:hover ~ .l1 {left: -352px; !important}
+	#parallax .c89:hover ~ .l2 {left: -280px; !important}
+	#parallax .c89:hover ~ .l3 {left: -1850px; !important}
+	#parallax .c88:hover ~ .l1 {left: -348px; !important}
+	#parallax .c88:hover ~ .l2 {left: -282.5px; !important}
+	#parallax .c88:hover ~ .l3 {left: -1868.75px; !important}
+	#parallax .c87:hover ~ .l1 {left: -344px; !important}
+	#parallax .c87:hover ~ .l2 {left: -285px; !important}
+	#parallax .c87:hover ~ .l3 {left: -1887.5px; !important}
+	#parallax .c86:hover ~ .l1 {left: -340px; !important}
+	#parallax .c86:hover ~ .l2 {left: -287.5px; !important}
+	#parallax .c86:hover ~ .l3 {left: -1906.25px; !important}
+	#parallax .c85:hover ~ .l1 {left: -336px; !important}
+	#parallax .c85:hover ~ .l2 {left: -290px; !important}
+	#parallax .c85:hover ~ .l3 {left: -1925px; !important}
+	#parallax .c84:hover ~ .l1 {left: -332px; !important}
+	#parallax .c84:hover ~ .l2 {left: -292.5px; !important}
+	#parallax .c84:hover ~ .l3 {left: -1943.75px; !important}
+	#parallax .c83:hover ~ .l1 {left: -328px; !important}
+	#parallax .c83:hover ~ .l2 {left: -295px; !important}
+	#parallax .c83:hover ~ .l3 {left: -1962.5px; !important}
+	#parallax .c82:hover ~ .l1 {left: -324px; !important}
+	#parallax .c82:hover ~ .l2 {left: -297.5px; !important}
+	#parallax .c82:hover ~ .l3 {left: -1981.25px; !important}
+	#parallax .c81:hover ~ .l1 {left: -320px; !important}
+	#parallax .c81:hover ~ .l2 {left: -300px; !important}
+	#parallax .c81:hover ~ .l3 {left: -2000px; !important}
+	#parallax .c80:hover ~ .l1 {left: -316px; !important}
+	#parallax .c80:hover ~ .l2 {left: -302.5px; !important}
+	#parallax .c80:hover ~ .l3 {left: -2018.75px; !important}
+	#parallax .c79:hover ~ .l1 {left: -312px; !important}
+	#parallax .c79:hover ~ .l2 {left: -305px; !important}
+	#parallax .c79:hover ~ .l3 {left: -2037.5px; !important}
+	#parallax .c78:hover ~ .l1 {left: -308px; !important}
+	#parallax .c78:hover ~ .l2 {left: -307.5px; !important}
+	#parallax .c78:hover ~ .l3 {left: -2056.25px; !important}
+	#parallax .c77:hover ~ .l1 {left: -304px; !important}
+	#parallax .c77:hover ~ .l2 {left: -310px; !important}
+	#parallax .c77:hover ~ .l3 {left: -2075px; !important}
+	#parallax .c76:hover ~ .l1 {left: -300px; !important}
+	#parallax .c76:hover ~ .l2 {left: -312.5px; !important}
+	#parallax .c76:hover ~ .l3 {left: -2093.75px; !important}
+	#parallax .c75:hover ~ .l1 {left: -296px; !important}
+	#parallax .c75:hover ~ .l2 {left: -315px; !important}
+	#parallax .c75:hover ~ .l3 {left: -2112.5px; !important}
+	#parallax .c74:hover ~ .l1 {left: -292px; !important}
+	#parallax .c74:hover ~ .l2 {left: -317.5px; !important}
+	#parallax .c74:hover ~ .l3 {left: -2131.25px; !important}
+	#parallax .c73:hover ~ .l1 {left: -288px; !important}
+	#parallax .c73:hover ~ .l2 {left: -320px; !important}
+	#parallax .c73:hover ~ .l3 {left: -2150px; !important}
+	#parallax .c72:hover ~ .l1 {left: -284px; !important}
+	#parallax .c72:hover ~ .l2 {left: -322.5px; !important}
+	#parallax .c72:hover ~ .l3 {left: -2168.75px; !important}
+	#parallax .c71:hover ~ .l1 {left: -280px; !important}
+	#parallax .c71:hover ~ .l2 {left: -325px; !important}
+	#parallax .c71:hover ~ .l3 {left: -2187.5px; !important}
+	#parallax .c70:hover ~ .l1 {left: -276px; !important}
+	#parallax .c70:hover ~ .l2 {left: -327.5px; !important}
+	#parallax .c70:hover ~ .l3 {left: -2206.25px; !important}
+	#parallax .c69:hover ~ .l1 {left: -272px; !important}
+	#parallax .c69:hover ~ .l2 {left: -330px; !important}
+	#parallax .c69:hover ~ .l3 {left: -2225px; !important}
+	#parallax .c68:hover ~ .l1 {left: -268px; !important}
+	#parallax .c68:hover ~ .l2 {left: -332.5px; !important}
+	#parallax .c68:hover ~ .l3 {left: -2243.75px; !important}
+	#parallax .c67:hover ~ .l1 {left: -264px; !important}
+	#parallax .c67:hover ~ .l2 {left: -335px; !important}
+	#parallax .c67:hover ~ .l3 {left: -2262.5px; !important}
+	#parallax .c66:hover ~ .l1 {left: -260px; !important}
+	#parallax .c66:hover ~ .l2 {left: -337.5px; !important}
+	#parallax .c66:hover ~ .l3 {left: -2281.25px; !important}
+	#parallax .c65:hover ~ .l1 {left: -256px; !important}
+	#parallax .c65:hover ~ .l2 {left: -340px; !important}
+	#parallax .c65:hover ~ .l3 {left: -2300px; !important}
+	#parallax .c64:hover ~ .l1 {left: -252px; !important}
+	#parallax .c64:hover ~ .l2 {left: -342.5px; !important}
+	#parallax .c64:hover ~ .l3 {left: -2318.75px; !important}
+	#parallax .c63:hover ~ .l1 {left: -248px; !important}
+	#parallax .c63:hover ~ .l2 {left: -345px; !important}
+	#parallax .c63:hover ~ .l3 {left: -2337.5px; !important}
+	#parallax .c62:hover ~ .l1 {left: -244px; !important}
+	#parallax .c62:hover ~ .l2 {left: -347.5px; !important}
+	#parallax .c62:hover ~ .l3 {left: -2356.25px; !important}
+	#parallax .c61:hover ~ .l1 {left: -240px; !important}
+	#parallax .c61:hover ~ .l2 {left: -350px; !important}
+	#parallax .c61:hover ~ .l3 {left: -2375px; !important}
+	#parallax .c60:hover ~ .l1 {left: -236px; !important}
+	#parallax .c60:hover ~ .l2 {left: -352.5px; !important}
+	#parallax .c60:hover ~ .l3 {left: -2393.75px; !important}
+	#parallax .c59:hover ~ .l1 {left: -232px; !important}
+	#parallax .c59:hover ~ .l2 {left: -355px; !important}
+	#parallax .c59:hover ~ .l3 {left: -2412.5px; !important}
+	#parallax .c58:hover ~ .l1 {left: -228px; !important}
+	#parallax .c58:hover ~ .l2 {left: -357.5px; !important}
+	#parallax .c58:hover ~ .l3 {left: -2431.25px; !important}
+	#parallax .c57:hover ~ .l1 {left: -224px; !important}
+	#parallax .c57:hover ~ .l2 {left: -360px; !important}
+	#parallax .c57:hover ~ .l3 {left: -2450px; !important}
+	#parallax .c56:hover ~ .l1 {left: -220px; !important}
+	#parallax .c56:hover ~ .l2 {left: -362.5px; !important}
+	#parallax .c56:hover ~ .l3 {left: -2468.75px; !important}
+	#parallax .c55:hover ~ .l1 {left: -216px; !important}
+	#parallax .c55:hover ~ .l2 {left: -365px; !important}
+	#parallax .c55:hover ~ .l3 {left: -2487.5px; !important}
+	#parallax .c54:hover ~ .l1 {left: -212px; !important}
+	#parallax .c54:hover ~ .l2 {left: -367.5px; !important}
+	#parallax .c54:hover ~ .l3 {left: -2506.25px; !important}
+	#parallax .c53:hover ~ .l1 {left: -208px; !important}
+	#parallax .c53:hover ~ .l2 {left: -370px; !important}
+	#parallax .c53:hover ~ .l3 {left: -2525px; !important}
+	#parallax .c52:hover ~ .l1 {left: -204px; !important}
+	#parallax .c52:hover ~ .l2 {left: -372.5px; !important}
+	#parallax .c52:hover ~ .l3 {left: -2543.75px; !important}
+	#parallax .c51:hover ~ .l1 {left: -200px; !important}
+	#parallax .c51:hover ~ .l2 {left: -375px; !important}
+	#parallax .c51:hover ~ .l3 {left: -2562.5px; !important}
+	#parallax .c50:hover ~ .l1 {left: -196px; !important}
+	#parallax .c50:hover ~ .l2 {left: -377.5px; !important}
+	#parallax .c50:hover ~ .l3 {left: -2581.25px; !important}
+	#parallax .c49:hover ~ .l1 {left: -192px; !important}
+	#parallax .c49:hover ~ .l2 {left: -380px; !important}
+	#parallax .c49:hover ~ .l3 {left: -2600px; !important}
+	#parallax .c48:hover ~ .l1 {left: -188px; !important}
+	#parallax .c48:hover ~ .l2 {left: -382.5px; !important}
+	#parallax .c48:hover ~ .l3 {left: -2618.75px; !important}
+	#parallax .c47:hover ~ .l1 {left: -184px; !important}
+	#parallax .c47:hover ~ .l2 {left: -385px; !important}
+	#parallax .c47:hover ~ .l3 {left: -2637.5px; !important}
+	#parallax .c46:hover ~ .l1 {left: -180px; !important}
+	#parallax .c46:hover ~ .l2 {left: -387.5px; !important}
+	#parallax .c46:hover ~ .l3 {left: -2656.25px; !important}
+	#parallax .c45:hover ~ .l1 {left: -176px; !important}
+	#parallax .c45:hover ~ .l2 {left: -390px; !important}
+	#parallax .c45:hover ~ .l3 {left: -2675px; !important}
+	#parallax .c44:hover ~ .l1 {left: -172px; !important}
+	#parallax .c44:hover ~ .l2 {left: -392.5px; !important}
+	#parallax .c44:hover ~ .l3 {left: -2693.75px; !important}
+	#parallax .c43:hover ~ .l1 {left: -168px; !important}
+	#parallax .c43:hover ~ .l2 {left: -395px; !important}
+	#parallax .c43:hover ~ .l3 {left: -2712.5px; !important}
+	#parallax .c42:hover ~ .l1 {left: -164px; !important}
+	#parallax .c42:hover ~ .l2 {left: -397.5px; !important}
+	#parallax .c42:hover ~ .l3 {left: -2731.25px; !important}
+	#parallax .c41:hover ~ .l1 {left: -160px; !important}
+	#parallax .c41:hover ~ .l2 {left: -400px; !important}
+	#parallax .c41:hover ~ .l3 {left: -2750px; !important}
+	#parallax .c40:hover ~ .l1 {left: -156px; !important}
+	#parallax .c40:hover ~ .l2 {left: -402.5px; !important}
+	#parallax .c40:hover ~ .l3 {left: -2768.75px; !important}
+	#parallax .c39:hover ~ .l1 {left: -152px; !important}
+	#parallax .c39:hover ~ .l2 {left: -405px; !important}
+	#parallax .c39:hover ~ .l3 {left: -2787.5px; !important}
+	#parallax .c38:hover ~ .l1 {left: -148px; !important}
+	#parallax .c38:hover ~ .l2 {left: -407.5px; !important}
+	#parallax .c38:hover ~ .l3 {left: -2806.25px; !important}
+	#parallax .c37:hover ~ .l1 {left: -144px; !important}
+	#parallax .c37:hover ~ .l2 {left: -410px; !important}
+	#parallax .c37:hover ~ .l3 {left: -2825px; !important}
+	#parallax .c36:hover ~ .l1 {left: -140px; !important}
+	#parallax .c36:hover ~ .l2 {left: -412.5px; !important}
+	#parallax .c36:hover ~ .l3 {left: -2843.75px; !important}
+	#parallax .c35:hover ~ .l1 {left: -136px; !important}
+	#parallax .c35:hover ~ .l2 {left: -415px; !important}
+	#parallax .c35:hover ~ .l3 {left: -2862.5px; !important}
+	#parallax .c34:hover ~ .l1 {left: -132px; !important}
+	#parallax .c34:hover ~ .l2 {left: -417.5px; !important}
+	#parallax .c34:hover ~ .l3 {left: -2881.25px; !important}
+	#parallax .c33:hover ~ .l1 {left: -128px; !important}
+	#parallax .c33:hover ~ .l2 {left: -420px; !important}
+	#parallax .c33:hover ~ .l3 {left: -2900px; !important}
+	#parallax .c32:hover ~ .l1 {left: -124px; !important}
+	#parallax .c32:hover ~ .l2 {left: -422.5px; !important}
+	#parallax .c32:hover ~ .l3 {left: -2918.75px; !important}
+	#parallax .c31:hover ~ .l1 {left: -120px; !important}
+	#parallax .c31:hover ~ .l2 {left: -425px; !important}
+	#parallax .c31:hover ~ .l3 {left: -2937.5px; !important}
+	#parallax .c30:hover ~ .l1 {left: -116px; !important}
+	#parallax .c30:hover ~ .l2 {left: -427.5px; !important}
+	#parallax .c30:hover ~ .l3 {left: -2956.25px; !important}
+	#parallax .c29:hover ~ .l1 {left: -112px; !important}
+	#parallax .c29:hover ~ .l2 {left: -430px; !important}
+	#parallax .c29:hover ~ .l3 {left: -2975px; !important}
+	#parallax .c28:hover ~ .l1 {left: -108px; !important}
+	#parallax .c28:hover ~ .l2 {left: -432.5px; !important}
+	#parallax .c28:hover ~ .l3 {left: -2993.75px; !important}
+	#parallax .c27:hover ~ .l1 {left: -104px; !important}
+	#parallax .c27:hover ~ .l2 {left: -435px; !important}
+	#parallax .c27:hover ~ .l3 {left: -3012.5px; !important}
+	#parallax .c26:hover ~ .l1 {left: -100px; !important}
+	#parallax .c26:hover ~ .l2 {left: -437.5px; !important}
+	#parallax .c26:hover ~ .l3 {left: -3031.25px; !important}
+	#parallax .c25:hover ~ .l1 {left: -96px; !important}
+	#parallax .c25:hover ~ .l2 {left: -440px; !important}
+	#parallax .c25:hover ~ .l3 {left: -3050px; !important}
+	#parallax .c24:hover ~ .l1 {left: -92px; !important}
+	#parallax .c24:hover ~ .l2 {left: -442.5px; !important}
+	#parallax .c24:hover ~ .l3 {left: -3068.75px; !important}
+	#parallax .c23:hover ~ .l1 {left: -88px; !important}
+	#parallax .c23:hover ~ .l2 {left: -445px; !important}
+	#parallax .c23:hover ~ .l3 {left: -3087.5px; !important}
+	#parallax .c22:hover ~ .l1 {left: -84px; !important}
+	#parallax .c22:hover ~ .l2 {left: -447.5px; !important}
+	#parallax .c22:hover ~ .l3 {left: -3106.25px; !important}
+	#parallax .c21:hover ~ .l1 {left: -80px; !important}
+	#parallax .c21:hover ~ .l2 {left: -450px; !important}
+	#parallax .c21:hover ~ .l3 {left: -3125px; !important}
+	#parallax .c20:hover ~ .l1 {left: -76px; !important}
+	#parallax .c20:hover ~ .l2 {left: -452.5px; !important}
+	#parallax .c20:hover ~ .l3 {left: -3143.75px; !important}
+	#parallax .c19:hover ~ .l1 {left: -72px; !important}
+	#parallax .c19:hover ~ .l2 {left: -455px; !important}
+	#parallax .c19:hover ~ .l3 {left: -3162.5px; !important}
+	#parallax .c18:hover ~ .l1 {left: -68px; !important}
+	#parallax .c18:hover ~ .l2 {left: -457.5px; !important}
+	#parallax .c18:hover ~ .l3 {left: -3181.25px; !important}
+	#parallax .c17:hover ~ .l1 {left: -64px; !important}
+	#parallax .c17:hover ~ .l2 {left: -460px; !important}
+	#parallax .c17:hover ~ .l3 {left: -3200px; !important}
+	#parallax .c16:hover ~ .l1 {left: -60px; !important}
+	#parallax .c16:hover ~ .l2 {left: -462.5px; !important}
+	#parallax .c16:hover ~ .l3 {left: -3218.75px; !important}
+	#parallax .c15:hover ~ .l1 {left: -56px; !important}
+	#parallax .c15:hover ~ .l2 {left: -465px; !important}
+	#parallax .c15:hover ~ .l3 {left: -3237.5px; !important}
+	#parallax .c14:hover ~ .l1 {left: -52px; !important}
+	#parallax .c14:hover ~ .l2 {left: -467.5px; !important}
+	#parallax .c14:hover ~ .l3 {left: -3256.25px; !important}
+	#parallax .c13:hover ~ .l1 {left: -48px; !important}
+	#parallax .c13:hover ~ .l2 {left: -470px; !important}
+	#parallax .c13:hover ~ .l3 {left: -3275px; !important}
+	#parallax .c12:hover ~ .l1 {left: -44px; !important}
+	#parallax .c12:hover ~ .l2 {left: -472.5px; !important}
+	#parallax .c12:hover ~ .l3 {left: -3293.75px; !important}
+	#parallax .c11:hover ~ .l1 {left: -40px; !important}
+	#parallax .c11:hover ~ .l2 {left: -475px; !important}
+	#parallax .c11:hover ~ .l3 {left: -3312.5px; !important}
+	#parallax .c10:hover ~ .l1 {left: -36px; !important}
+	#parallax .c10:hover ~ .l2 {left: -477.5px; !important}
+	#parallax .c10:hover ~ .l3 {left: -3331.25px; !important}
+	#parallax .c9:hover ~ .l1 {left: -32px; !important}
+	#parallax .c9:hover ~ .l2 {left: -480px; !important}
+	#parallax .c9:hover ~ .l3 {left: -3350px; !important}
+	#parallax .c8:hover ~ .l1 {left: -28px; !important}
+	#parallax .c8:hover ~ .l2 {left: -482.5px; !important}
+	#parallax .c8:hover ~ .l3 {left: -3368.75px; !important}
+	#parallax .c7:hover ~ .l1 {left: -24px; !important}
+	#parallax .c7:hover ~ .l2 {left: -485px; !important}
+	#parallax .c7:hover ~ .l3 {left: -3387.5px; !important}
+	#parallax .c6:hover ~ .l1 {left: -20px; !important}
+	#parallax .c6:hover ~ .l2 {left: -487.5px; !important}
+	#parallax .c6:hover ~ .l3 {left: -3406.25px; !important}
+	#parallax .c5:hover ~ .l1 {left: -16px; !important}
+	#parallax .c5:hover ~ .l2 {left: -490px; !important}
+	#parallax .c5:hover ~ .l3 {left: -3425px; !important}
+	#parallax .c4:hover ~ .l1 {left: -12px; !important}
+	#parallax .c4:hover ~ .l2 {left: -492.5px; !important}
+	#parallax .c4:hover ~ .l3 {left: -3443.75px; !important}
+	#parallax .c3:hover ~ .l1 {left: -8px; !important}
+	#parallax .c3:hover ~ .l2 {left: -495px; !important}
+	#parallax .c3:hover ~ .l3 {left: -3462.5px; !important}
+	#parallax .c2:hover ~ .l1 {left: -4px; !important}
+	#parallax .c2:hover ~ .l2 {left: -497.5px; !important}
+	#parallax .c2:hover ~ .l3 {left: -3481.25px; !important}
+	#parallax .c1:hover ~ .l1 {left: 0px; !important}
+	#parallax .c1:hover ~ .l2 {left: -500px; !important}
+	#parallax .c1:hover ~ .l3 {left: -3500px; !important}
+		
 	</style>
 </head>
 <body>
 	<div id="parallax">
 		<!--Controls-->
-		<div class="control c1"></div>
-		<div class="control c2"></div>
-		<div class="control c3"></div>
-		<div class="control c4"></div>
-		<div class="control c5"></div>
-		<div class="control c6"></div>
-		<div class="control c7"></div>
-		<div class="control c8"></div>
-		<div class="control c9"></div>
+		<div class="control c200"></div>
+		<div class="control c199"></div>
+		<div class="control c198"></div>
+		<div class="control c197"></div>
+		<div class="control c196"></div>
+		<div class="control c195"></div>
+		<div class="control c194"></div>
+		<div class="control c193"></div>
+		<div class="control c192"></div>
+		<div class="control c191"></div>
+		<div class="control c190"></div>
+		<div class="control c189"></div>
+		<div class="control c188"></div>
+		<div class="control c187"></div>
+		<div class="control c186"></div>
+		<div class="control c185"></div>
+		<div class="control c184"></div>
+		<div class="control c183"></div>
+		<div class="control c182"></div>
+		<div class="control c181"></div>
+		<div class="control c180"></div>
+		<div class="control c179"></div>
+		<div class="control c178"></div>
+		<div class="control c177"></div>
+		<div class="control c176"></div>
+		<div class="control c175"></div>
+		<div class="control c174"></div>
+		<div class="control c173"></div>
+		<div class="control c172"></div>
+		<div class="control c171"></div>
+		<div class="control c170"></div>
+		<div class="control c169"></div>
+		<div class="control c168"></div>
+		<div class="control c167"></div>
+		<div class="control c166"></div>
+		<div class="control c165"></div>
+		<div class="control c164"></div>
+		<div class="control c163"></div>
+		<div class="control c162"></div>
+		<div class="control c161"></div>
+		<div class="control c160"></div>
+		<div class="control c159"></div>
+		<div class="control c158"></div>
+		<div class="control c157"></div>
+		<div class="control c156"></div>
+		<div class="control c155"></div>
+		<div class="control c154"></div>
+		<div class="control c153"></div>
+		<div class="control c152"></div>
+		<div class="control c151"></div>
+		<div class="control c150"></div>
+		<div class="control c149"></div>
+		<div class="control c148"></div>
+		<div class="control c147"></div>
+		<div class="control c146"></div>
+		<div class="control c145"></div>
+		<div class="control c144"></div>
+		<div class="control c143"></div>
+		<div class="control c142"></div>
+		<div class="control c141"></div>
+		<div class="control c140"></div>
+		<div class="control c139"></div>
+		<div class="control c138"></div>
+		<div class="control c137"></div>
+		<div class="control c136"></div>
+		<div class="control c135"></div>
+		<div class="control c134"></div>
+		<div class="control c133"></div>
+		<div class="control c132"></div>
+		<div class="control c131"></div>
+		<div class="control c130"></div>
+		<div class="control c129"></div>
+		<div class="control c128"></div>
+		<div class="control c127"></div>
+		<div class="control c126"></div>
+		<div class="control c125"></div>
+		<div class="control c124"></div>
+		<div class="control c123"></div>
+		<div class="control c122"></div>
+		<div class="control c121"></div>
+		<div class="control c120"></div>
+		<div class="control c119"></div>
+		<div class="control c118"></div>
+		<div class="control c117"></div>
+		<div class="control c116"></div>
+		<div class="control c115"></div>
+		<div class="control c114"></div>
+		<div class="control c113"></div>
+		<div class="control c112"></div>
+		<div class="control c111"></div>
+		<div class="control c110"></div>
+		<div class="control c109"></div>
+		<div class="control c108"></div>
+		<div class="control c107"></div>
+		<div class="control c106"></div>
+		<div class="control c105"></div>
+		<div class="control c104"></div>
+		<div class="control c103"></div>
+		<div class="control c102"></div>
+		<div class="control c101"></div>
+		<div class="control c100"></div>
+		<div class="control c99"></div>
+		<div class="control c98"></div>
+		<div class="control c97"></div>
+		<div class="control c96"></div>
+		<div class="control c95"></div>
+		<div class="control c94"></div>
+		<div class="control c93"></div>
+		<div class="control c92"></div>
+		<div class="control c91"></div>
+		<div class="control c90"></div>
+		<div class="control c89"></div>
+		<div class="control c88"></div>
+		<div class="control c87"></div>
+		<div class="control c86"></div>
+		<div class="control c85"></div>
+		<div class="control c84"></div>
+		<div class="control c83"></div>
+		<div class="control c82"></div>
+		<div class="control c81"></div>
+		<div class="control c80"></div>
+		<div class="control c79"></div>
+		<div class="control c78"></div>
+		<div class="control c77"></div>
+		<div class="control c76"></div>
+		<div class="control c75"></div>
+		<div class="control c74"></div>
+		<div class="control c73"></div>
+		<div class="control c72"></div>
+		<div class="control c71"></div>
+		<div class="control c70"></div>
+		<div class="control c69"></div>
+		<div class="control c68"></div>
+		<div class="control c67"></div>
+		<div class="control c66"></div>
+		<div class="control c65"></div>
+		<div class="control c64"></div>
+		<div class="control c63"></div>
+		<div class="control c62"></div>
+		<div class="control c61"></div>
+		<div class="control c60"></div>
+		<div class="control c59"></div>
+		<div class="control c58"></div>
+		<div class="control c57"></div>
+		<div class="control c56"></div>
+		<div class="control c55"></div>
+		<div class="control c54"></div>
+		<div class="control c53"></div>
+		<div class="control c52"></div>
+		<div class="control c51"></div>
+		<div class="control c50"></div>
+		<div class="control c49"></div>
+		<div class="control c48"></div>
+		<div class="control c47"></div>
+		<div class="control c46"></div>
+		<div class="control c45"></div>
+		<div class="control c44"></div>
+		<div class="control c43"></div>
+		<div class="control c42"></div>
+		<div class="control c41"></div>
+		<div class="control c40"></div>
+		<div class="control c39"></div>
+		<div class="control c38"></div>
+		<div class="control c37"></div>
+		<div class="control c36"></div>
+		<div class="control c35"></div>
+		<div class="control c34"></div>
+		<div class="control c33"></div>
+		<div class="control c32"></div>
+		<div class="control c31"></div>
+		<div class="control c30"></div>
+		<div class="control c29"></div>
+		<div class="control c28"></div>
+		<div class="control c27"></div>
+		<div class="control c26"></div>
+		<div class="control c25"></div>
+		<div class="control c24"></div>
+		<div class="control c23"></div>
+		<div class="control c22"></div>
+		<div class="control c21"></div>
+		<div class="control c20"></div>
+		<div class="control c19"></div>
+		<div class="control c18"></div>
+		<div class="control c17"></div>
+		<div class="control c16"></div>
+		<div class="control c15"></div>
+		<div class="control c14"></div>
+		<div class="control c13"></div>
+		<div class="control c12"></div>
+		<div class="control c11"></div>
 		<div class="control c10"></div>
+		<div class="control c9"></div>
+		<div class="control c8"></div>
+		<div class="control c7"></div>
+		<div class="control c6"></div>
+		<div class="control c5"></div>
+		<div class="control c4"></div>
+		<div class="control c3"></div>
+		<div class="control c2"></div>
+		<div class="control c1"></div>
 		<!--Layers-->
-		<div class="layer l1" style="width: 1000px; height: 400px; background: url('parallax1.png') center no-repeat;"></div>
-		<div class="layer l2" style="width: 1500px; height: 400px; background: url('parallax2.png') center no-repeat;"></div>
-		<div class="layer l3" style="width: 1300px; height: 400px; background: url('parallax3.png') no-repeat; background-position: 1000px 20px;"></div>
-		<div class="layer l4" style="width: 1000px; height: 400px;"><div style="font-family: Georgia; font-style: italic; font-size: 20px; position: absolute; bottom: 20px; left: 30px;">CSS Parallax by Tanner &bull; Find it on GitHub</div></div>
-	</div>
-	<div style="text-align: center;">Powered by <a href="http://tanner.gamedev.pl/" title="Tanner" target="_blank">Tanner</a></div>
+		<div class="layer l1"></div>
+		<div class="layer l2"></div>
+		<div class="layer l3"></div>
+		</div>
+<div style="text-align: center; font-family: Arial; margin: 20px;">
+	<a href="https://github.com/Tanner963/CSS-Parallax">github</a> -
+	<a href="http://tanner.warsztat.io">homepage</a> -
+	<a href="http://fb.me/tannernetwork">facebook</a> -
+	<a href="http://twitter/tannernetwork">twitter</a> - subscribe! //tanner
+</div>
 </body>
 </html>
